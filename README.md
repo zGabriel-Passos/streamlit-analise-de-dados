@@ -22,8 +22,10 @@ Certifique-se de ter o Python instalado em sua máquina. Recomenda-se usar um am
 1.  **Clone o repositório** (se estiver no GitHub):
 
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd streamlit-analise-de-dados
+    git clone <URL_DO_REPOSITORIO>
+    ```
+    ```bash
+      cd streamlit-analise-de-dados
     ```
 
 2.  **Instale as dependências:**
