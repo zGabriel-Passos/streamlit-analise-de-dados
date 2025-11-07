@@ -3,7 +3,8 @@ import pandas as pd
 import streamlit as st
 import time
 
-arquivo = st.file_uploader("Carregue seu arquivo CSV:")
+with st.sidebar:
+    arquivo = st.file_uploader("Carregue seu arquivo CSV:")
 
 if arquivo:
     if arquivo.name.endswith(".csv"):
